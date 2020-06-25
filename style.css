@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: 0;
+  background-size: cover;
+  background-image: url("picture.jpeg");
+  background-color: rgba(19, 19, 73, 0.1);
+}
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  overflow: hidden;
+  overflow: hidden;
+  background-color: #571028;
+  position: relative;
+}
+#navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+button {
+  background-color: white;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 8px;
+}
+button:hover {
+  opacity: 0.7;
+}
+a:hover {
+  background-color: black;
+  font-size: 20px;
+}
+h1 {
+  font-family: "Courgette", sans-serif;
+  color: rgb(255, 38, 110);
+  font-size: 5.5em;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+h5 {
+  font-size: 14.5px;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+#countdown {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-left: 15%;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: monospace;
+}
+.countdown h3 {
+  font-size: 3.5em;
+  margin-bottom: 0;
+  font-weight: 1600;
+}
+.countdown p {
+  margin-top: 0;
+}
+#details {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 20px;
+}
+#one {
+  text-align: center;
+}
