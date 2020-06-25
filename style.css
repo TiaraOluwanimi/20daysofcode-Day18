@@ -79,3 +79,32 @@ h5 {
 #one {
   text-align: center;
 }
+@media screen and (max-width:1024px){
+#navbar a {
+  color: white;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+}
+#details {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 12px;
+}
+h5 {
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+}
+countdown {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 10%;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: monospace;
+}
+}
